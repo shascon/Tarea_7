@@ -30,7 +30,7 @@ function show(params) {
     </div>
   </div>`;
 }
-// Function encargada de realizar la peticion al API
+/* Function encargada de realizar la peticion al API
 async function getPersonas() {
     //Peticion Fetch
     const resp = await fetch("https://rickandmortyapi.com/api/character");
@@ -42,7 +42,7 @@ async function getPersonas() {
         show(people.information);
     });
 }
-// 
+*/
 
 axios.get('https://rickandmortyapi.com/api/character')
 .then((info) => {
